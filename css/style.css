@@ -1,1 +1,211 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url("Montserrat-Regular.eot");
+  src: url("Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url("../fonts/Montserrat-Medium.eot");
+  src: url("../fonts/Montserrat-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Medium.woff") format("woff"), url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Semibold';
+  src: url("../fonts/Montserrat-SemiBold.eot");
+  src: url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url("../fonts/Montserrat-ExtraBold.eot");
+  src: url("../fonts/Montserrat-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-ExtraBold.woff") format("woff"), url("../fonts/Montserrat-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url("../fonts/Montserrat-Black.eot");
+  src: url("../fonts/Montserrat-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Black.woff") format("woff"), url("../fonts/Montserrat-Black.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Montserrat Medium', sans-serif;
+}
+
+.header {
+  background: url(../img/bg1.jpg);
+  background-size: cover;
+  height: 900px;
+}
+
+.navbar-wrap {
+  display: block;
+}
+
+.navbar__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__logo {
+  position: relative;
+  left: 23.4%;
+  top: 26px;
+}
+
+.navbar__mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 53.6%;
+}
+
+.navbar__phone {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.navbar__mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 38.9%;
+}
+
+.navbar__mmail {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.navbar__mail_logo {
+  margin-right: 10px;
+}
+
+.navbar__phone_logo {
+  margin-right: 10px;
+}
+
+.navbar__li {
+  position: relative;
+  left: 40.8%;
+  top: 51px;
+  display: inline;
+  margin: 4px;
+}
+
+.navbar__topnav a:hover {
+  border: 2px solid #ffd673;
+  border-radius: 17px;
+}
+
+.navbar__menu1 {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding-right: 4.1%;
+  padding: 6px 27px;
+}
+
+.navbar__menu2 {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding-right: 2.9%;
+  padding: 6px 27px;
+}
+
+.navbar__menu3 {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px 27px;
+}
+
+.logobig {
+  position: relative;
+  left: 20.9%;
+  top: 248px;
+}
+
+.textbig {
+  width: 406px;
+  position: relative;
+  left: 31.4%;
+  top: 215px;
+}
+
+.textbig__on {
+  color: #ffd673;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.textbig__po {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.button1 {
+  position: relative;
+  left: 28.4%;
+  top: 361px;
+}
+
+.button1__one {
+  background: #d3ad52;
+  border: none;
+  font-size: 18.2px;
+  color: #000000;
+  text-align: center;
+  padding: 25px 2.6%;
+  border-radius: 30.94px;
+  -webkit-box-shadow: -11.25px 6.5px;
+          box-shadow: -11.25px 6.5px;
+}
+
+.social {
+  display: block;
+  position: relative;
+  left: 18.8%;
+  top: 260px;
+}
+
+.social__fa {
+  padding-top: 18px;
+}
+
+.social__te {
+  padding-top: 18px;
+}
+/*# sourceMappingURL=style.css.map */
